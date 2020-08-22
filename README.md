@@ -1,8 +1,8 @@
-## PORTFOLIO:
-This is a showcase of my projects and my abilities
+## AKAN NAMES
+A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
 
 ## DEMO
-Here is a working live demo : https://janeadhiambo3000.github.io/MY-PORTFOLIO/ 
+Here is a working live demo : 
 
 ### AUTHORS NAME:
 
@@ -46,5 +46,5 @@ JS
 
 ## [License](https://github.com/JaneAdhiambo3000/WebApp/blob/master/LICENSE)
 
-© [MIT](LICENSE)
+© [MIT](LICENSE.md)
 
