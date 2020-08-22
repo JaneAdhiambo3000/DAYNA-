@@ -28,15 +28,17 @@
             <div>
 
                 <h4>Enter birthday:<input type="date" name="day" id="day"></h4>
-                
+
             </div>
             <div>
                 <h4>Gender:<input type="gender" name="gender"></h4>
             </div>
 
             <div>
-                <button type="submit">submit</button>
-                <button type="cancel">cancel</button>
+                <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i
+                        class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
+                <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i
+                        class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>
             </div>
         </form>
     </div>
