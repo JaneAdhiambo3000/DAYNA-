@@ -1,15 +1,16 @@
 *, *:: before *::after{
     box-sizing: border-box;
     font-family: "Robotto", sans-serif;
+    background-color: green;
 }
 
 
 body{
-    align-items: center;
+    text-align: center;
     justify-content: center;
-    background-image: url(images/samuel-aboh-S1NYr9djLtU-unsplash.jpg);
     background-size: cover;
-    color: aliceblue;
+    color: white;
+
 }
 h1{
     align-items: center;
@@ -19,6 +20,18 @@ h1{
 ul{
     font-weight: bold;
     color: aliceblue;
+
+}
+
+p{
+    width: 700px;
+    color: aliceblue;
+}
+
+.form{
+    display: flex;
+    float: right;
     
+
 }
 
