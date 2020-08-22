@@ -37,20 +37,21 @@ ul{
 .form{
     display: flex;
     float: right;
-    padding-right: 300px;
+    padding-right: 250px;
 }
-h2{
-    font-size: 18px;
-}
+
 .female-names{
     float: left;
     padding-left: 300px;
 }
+
 .male-names{
     float: left;
 }
 
-
+h2{
+    font-size: 20px;
+}
 .footer {
     position: fixed;
     left: 0;
