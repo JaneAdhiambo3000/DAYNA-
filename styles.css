@@ -11,6 +11,7 @@ body{
     color: black;
     background-color: green;
     padding-top: 50px;
+    font-size: 18px;
 
 }
 
@@ -19,6 +20,7 @@ body{
 }
 .hero{
     align-items: center;
+    color: cornsilk;
     display: flex;
     justify-content: center;
     width: 500px;
@@ -36,6 +38,9 @@ ul{
     display: flex;
     float: right;
     padding-right: 300px;
+}
+h2{
+    font-size: 18px;
 }
 .female-names{
     float: left;
