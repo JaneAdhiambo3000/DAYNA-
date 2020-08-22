@@ -1,7 +1,6 @@
 *, *:: before *::after{
     box-sizing: border-box;
     font-family: "Robotto", sans-serif;
-    background-color: green;
 }
 
 
@@ -9,7 +8,8 @@ body{
     text-align: center;
     justify-content: center;
     background-size: cover;
-    color: white;
+    color: black;
+    background-color: green;
 
 }
 h1{
@@ -31,7 +31,8 @@ p{
 .form{
     display: flex;
     float: right;
-    
-
+}
+.card-footer{
+    color: black;
 }
 
