@@ -10,11 +10,20 @@ body{
     background-size: cover;
     color: black;
     background-color: green;
+    padding-top: 50px;
 
 }
-h1{
+
+.header{
+    padding-right: 500px;
+}
+.hero{
     align-items: center;
     display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 100px;
+    padding-left: 300px;
 }
 
 ul{
@@ -23,15 +32,10 @@ ul{
 
 }
 
-p{
-    width: 700px;
-    color: aliceblue;
-    display: flex;
-}
-
 .form{
     display: flex;
     float: right;
+    padding-right: 300px;
 }
 .female-names{
     float: left;
