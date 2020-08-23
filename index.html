@@ -5,78 +5,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DAYNA PROJECT</title>
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
-    <div class="header">
-        <h1>AKAN NAMES</h1>
-    </div>
-    <div class="hero">
-        <p>A web application that takes a user's birthday and calculates the day of the week they were born and then
-            depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture. Frequently
-            in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they
-            were born.</p>
-    </div>
-
-    <div class="form">
-        <form>
-            <div>
-
-                <h4>Enter your birthdate here please:</h4>
-                <div class="label">Birthday<input type="date" name="date" id=""></div>
+    <div class="container">
+        <div class="jumbotron">
+            <div class="header">
+                <h1>AKAN NAMES</h1>
             </div>
-            <div>
-                <h4>Gender:<input type="gender" name="gender"></h4>
+            <div class="hero">
+                <p>A web application that takes a user's birthday and calculates the day of the week they were born and
+                    then
+                    depending on their gender outputs their Akan Name. Akan names are derived from Ghanian culture.
+                    Frequently
+                    in Ghana, children are given their first name as a 'day name' which corresponds to the day in the
+                    week
+                    they
+                    were born.</p>
             </div>
 
+            <div class="female-names">
+                <h2>Female Names</h2>
+                <ul>
+                    <li>Sunday: Akosua</li>
+                    <li>Monday: Adwoa</li>
+                    <li>Tuesday: Abenaa</li>
+                    <li>Wednesday: Akua</li>
+                    <li>Thursday: Yaa</li>
+                    <li>Friday: Afua</li>
+                    <li>Saturday: Ama</li>
+                </ul>
+            </div>
+
+            <div class="male-names">
+                <h3>Male Names</h3>
+                <ul>
+
+                    <li>Sunday: Kwasi</li>
+                    <li>Monday: Kwadwo</li>
+                    <li>Tuesday: Kwabena</li>
+                    <li>Wednesday: Kwaku</li>
+                    <li>Thursday: Yaw</li>
+                    <li>Friday: Kofi</li>
+                    <li>Saturday: Kwame</li>
+                </ul>
+            </div>
             <div>
-                <button type="submit" onclick="getAkanName(); return false;" class="btn btn-primary btn-xs"><i
-                        class="fa fa-search" aria-hidden="true"></i>&nbsp;&nbsp;Get Akan Name</button>
-                <button type="reset" onclick="clearAkanMessage(); return false;" class="btn btn-default btn-xs"><i
-                        class="fa fa-times" aria-hidden="true"></i>&nbsp;&nbsp;Cancel</button>
-                <hr>
-                <div class="your-akan-name">
-                    <p id="message" class="output"></p>
+
+                <div class="form-group top-form">
+                    <label for="century" class="labels">Century</label>
+                    <input type="number" class="form-control" placeholder="Enter the century" id="century" required
+                        min="0" max="30">
                 </div>
             </div>
-        </form>
+
+            <br>
+
+            <div>
+                <div class="form-group">
+                    <label for="year" class="labels">Year</label>
+                    <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0"
+                        max="100">
+                </div>
+            </div>
+
+            <br>
+
+            <div>
+                <div class="form-group">
+                    <label for="month" class="labels">Month</label>
+                    <input type="number" class="form-control" placeholder="Enter the month of the year" id="month"
+                        required min="0" max="12">
+                </div>
+            </div>
+
+            <br>
+
+            <div>
+                <div class="form-group">
+                    <label for="monthDay" class="labels">Day of month</label>
+                    <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday"
+                        required min="0" max="12">
+                </div>
+            </div>
+
+            <br>
+
+            <div>
+                <form class="radio-button">
+                    <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+                    <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                </form>
+            </div>
+
+            <br>
+
+            <div class="result">
+                <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+                        onclick="checkDayOfWeek();">Calculate Birthday</button></a>
+                <h1 id="result"></h1>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>2020 Copyright. All rights reserved.Akan Names.<em> by Jane Adhiambo.</em> </p>
+        </div>
     </div>
+    <div>
 
-    <div class="female-names">
-        <h2>Female Names</h2>
-        <ul>
-            <li>Sunday: Akosua</li>
-            <li>Monday: Adwoa</li>
-            <li>Tuesday: Abenaa</li>
-            <li>Wednesday: Akua</li>
-            <li>Thursday: Yaa</li>
-            <li>Friday: Afua</li>
-            <li>Saturday: Ama</li>
-        </ul>
+        <script src="script.js"></script>
     </div>
-
-    <div class="male-names">
-        <h3>Male Names</h3>
-        <ul>
-
-            <li>Sunday: Kwasi</li>
-            <li>Monday: Kwadwo</li>
-            <li>Tuesday: Kwabena</li>
-            <li>Wednesday: Kwaku</li>
-            <li>Thursday: Yaw</li>
-            <li>Friday: Kofi</li>
-            <li>Saturday: Kwame</li>
-        </ul>
     </div>
-
-    <div class="footer">
-        <p>2020 Copyright. All rights reserved.Akan Names.<em> by Jane Adhiambo.</em> </p>
     </div>
-
-    <script src="script.js"></script>
-
 </body>
 
 </html>

@@ -9,14 +9,15 @@ body{
     justify-content: center;
     background-size: cover;
     color: black;
-    background-color: green;
-    padding-top: 50px;
+    background-image: url("images/4.jpg");
+    padding-top: 20px;
     font-size: 18px;
 
 }
 
 .header{
     padding-right: 500px;
+    color: cyan;
 }
 .hero{
     align-items: center;
@@ -36,8 +37,9 @@ ul{
 
 .form{
     display: flex;
-    float: right;
-    padding-right: 250px;
+    position: relative;
+    padding-right: 100px;
+    color: cyan;
 }
 
 .female-names{
@@ -51,17 +53,32 @@ ul{
 
 h2{
     font-size: 20px;
+    color: cyan;
 }
+
+h3{
+    color: cyan;
+}
+
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: cornflowerblue;
+    background-color: green;
+    color: black;
     text-align: center;
     justify-content: center;
     display: flex;
+    height: 40px;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+.result{
+    color: cornflowerblue;
 }
 
 
