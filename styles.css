@@ -8,10 +8,12 @@ body{
     text-align: center;
     justify-content: center;
     background-size: cover;
-    color: black;
+    color:white;
     background-image: url("images/4.jpg");
     padding-top: 20px;
-    font-size: 18px;
+    font-size: 15px;
+    height: 100%;
+    padding-bottom: 100px;
 
 }
 
@@ -19,12 +21,12 @@ body{
     padding-right: 500px;
     color: cyan;
 }
-.hero{
+.p{
     align-items: center;
     color: cornsilk;
     display: flex;
     justify-content: center;
-    width: 500px;
+    width: 300px;
     height: 100px;
     padding-left: 300px;
 }
@@ -37,22 +39,24 @@ ul{
 
 .form{
     display: flex;
+    width: 500px;
+    height: 300px;
     position: relative;
-    padding-right: 200px;
-    color: cyan;
+    
+
 }
 
-.female-names{
+/* .female-names{
     float: left;
     padding-left: 300px;
 }
 
 .male-names{
     float: left;
-}
+} */
 
 h2{
-    font-size: 20px;
+    /* font-size: 20px; */
     color: cyan;
 }
 
@@ -62,23 +66,19 @@ h3{
 
 .footer {
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
-    background-color: green;
-    color: black;
+    background-color: black;
+    color: teal;
     text-align: center;
     justify-content: center;
-    display: flex;
-    height: 40px;
-}
-
-p{
-    padding-bottom: 20px;
+    height: 30px;
+    font-size: 15px;
 }
 
 .result{
-    color: cornflowerblue;
+    color: white;
+    font-style: italic;
 }
 
 .btn{
@@ -88,6 +88,10 @@ p{
   width: 200px;
   border-radius: 20px;
 }
+h1{
+    font-size: 18px;
+}
+
 
 
 
