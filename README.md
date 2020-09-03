@@ -1,23 +1,15 @@
 ## AKAN NAMES
-A web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+This is a web application that takes a user's birthday and calculates the day of the week they were born then depending on their gender outputs their Akan Name.Akan names are derived from Ghanian culture.
 
 ## DEMO
-Here is a working live demo : https://janeadhiambo3000.github.io/DAYNA-/
-
-### AUTHORS NAME:
-
-Jane Adhiambo
-
-### PROJECT DESCRIPTION:
-
-This is a project used for demonstration.
+Here is a working live demo :  https://janeadhiambo3000.github.io/DAYNA-/
 
 
 ## MOBILE SUPPORT:
 The WebApp is compatible with devices of all sizes and all OS's, and consistent improvements are being made.
 
 
-### DEVELOPMENT
+## DEVELOPMENT:
 Want to contribute? Great!
 
 To fix a bug or enhance an existing module, follow these steps:
@@ -33,18 +25,17 @@ To fix a bug or enhance an existing module, follow these steps:
 
 
 ## BUILT WITH:
+- BOOTSTRAP
+- HTML
+- CSS
+- JS
 
-HTML
-CSS
-JS
+## TEAM:
 
 
-## TEAM
+[Jane Adhiambo] 
 
-
-[Jane Adhiambo ](https://github.com/JaneAdhiambo3000) 
-
-## [License](https://github.com/JaneAdhiambo3000/WebApp/blob/master/LICENSE)
+## LICENSE:
 
 © [MIT](LICENSE.md)
 
