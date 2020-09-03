@@ -17,7 +17,8 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <p>This is a web application that takes a user's birthday and calculates the day of the week they were born and
+                <p>This is a web application that takes a user's birthday and calculates the day of the week they were
+                    born and
                     then
                     depending on their gender outputs their Akan Name.Akan names are derived from Ghanian culture.
                     Frequently in
@@ -55,35 +56,31 @@
             </div>
             <div class="form">
                 <div class="col-md-6">
-                    <div class="form-group top-form">
-                        <label for="century" class="labels">Century</label>
-                        <input type="number" class="form-control" placeholder="eg. 21" id="century" required min="0"
-                            max="30">
-                    </div>
-                    <div class="form-group">
-                        <label for="year" class="labels">Year</label>
-                        <input type="number" placeholder="eg.1995" class="form-control" id="year" required min="0"
-                            max="100">
-                    </div>
-                    <div class="form-group">
-                        <label for="month" class="labels">Month</label>
-                        <input type="number" class="form-control" placeholder="eg.08" id="month" required min="0"
-                            max="12">
-                    </div>
-                    <div class="form-group">
-                        <label for="monthDay" class="labels">Day of month</label>
-                        <input type="number" placeholder="eg.06" class="form-control" id="monthday" required min="0"
-                            max="12">
-                    </div>
-                    <form class="radio-button">
-                        <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
-                        <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+                    <form class="generator">
+                        <h3 class="font-weight-normal">Generate Your Akan Name</h3>
+
+                        <label for="inputDay" class="sr-only">Day</label>
+                        <input type="number" id="day" class="form-control" value="" placeholder="Day" min="1" max="31"
+                            required>
+                        <br>
+                        <label for="inputMonth" class="sr-only">Month</label>
+                        <input type="number" id="month" class="form-control" value="" placeholder="Month" min="1"
+                            max="12" required>
+                        <br>
+                        <label for="inputYear" class="sr-only">Year</label>
+                        <input type="number" id="year" class="form-control" placeholder="Year" required>
+                        <br>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" id="male" name="gender" value="male">Male
+                                <input type="radio" id="female" name="gender" value="female">Female
+
+                            </label>
+                        </div>
+                        <button class="btn btn-lg btn-success btn-block" onclick="getInfo()" type="submit"
+                            id="submit">Generate</button>
+
                     </form>
-                    <div class="result">
-                        <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
-                                onclick="checkDayOfWeek();">Calculate Birthday</button></a>
-                        <h1 id="result"></h1>
-                    </div>
                 </div>
             </div>
         </div>
